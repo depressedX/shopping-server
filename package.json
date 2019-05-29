@@ -1,0 +1,32 @@
+{
+  "name": "shopping-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.5.0",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "graphql": "^14.3.0",
+    "graphql-server-koa": "^1.4.0",
+    "http2": "^3.3.7",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.5.7",
+    "spdy": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
